@@ -17,7 +17,7 @@ class Transaction extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function accounts(){
+    public function account(){
         return $this->belongsTo(Account::class);
     }
 
